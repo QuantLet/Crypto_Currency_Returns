@@ -22,6 +22,6 @@ Keywords:
 - Digital Finance
 - Systematic
 
-Author: Siang-Li Jheng, Ștefan Găman1, 2, 3, Alexandra Conda, Daniel Traian
+Author: Siang-Li Jheng, Ștefan Găman, Alexandra Conda, Daniel Traian Pele, Wolfgang Karl Härdle, Huei-Wen Teng, and Jörg Osterrieder
 
 ```
