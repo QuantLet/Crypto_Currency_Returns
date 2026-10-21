@@ -1,0 +1,56 @@
+[
+  {
+    "notebook": "20250214 Asset Allocation Weekly Old Period.ipynb",
+    "including_cc": true,
+    "return": 0.07385166863734721,
+    "std": 0.035600878953353295,
+    "sharpe": 1.6334335091428924,
+    "weights": {
+      "Crypto": 0.026466900103311323,
+      "Stocks": 0.2035071739119553,
+      "Commodity": 0.0,
+      "FX": 0.42373421224561947,
+      "Bond": 0.34629171373951717
+    }
+  },
+  {
+    "notebook": "20250214 Asset Allocation Weekly Old Period.ipynb",
+    "including_cc": false,
+    "return": 0.04911549660751629,
+    "std": 0.027011943349467247,
+    "sharpe": 1.2370637749088622,
+    "weights": {
+      "Stocks": 0.22083306366217081,
+      "Commodity": 0.0,
+      "FX": 0.43948877468648856,
+      "Bond": 0.339678161651341
+    }
+  },
+  {
+    "notebook": "20250214 Asset Allocation Weekly.ipynb",
+    "including_cc": true,
+    "return": 0.08217897748627921,
+    "std": 0.05393679730145949,
+    "sharpe": 1.2325347594281488,
+    "weights": {
+      "Crypto": 0.04738131726362429,
+      "Stocks": 0.24219978077397022,
+      "Commodity": 2.859286901754938e-15,
+      "FX": 0.6333741176415029,
+      "Bond": 0.07704478432089978
+    }
+  },
+  {
+    "notebook": "20250214 Asset Allocation Weekly.ipynb",
+    "including_cc": false,
+    "return": 0.05333895279295301,
+    "std": 0.04095383893112959,
+    "sharpe": 0.9190579876101216,
+    "weights": {
+      "Stocks": 0.28807384302005706,
+      "Commodity": 4.0571716387092166e-17,
+      "FX": 0.6448289983922336,
+      "Bond": 0.06709715858770933
+    }
+  }
+]
