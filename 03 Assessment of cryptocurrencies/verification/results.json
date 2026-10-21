@@ -1,0 +1,110 @@
+{
+  "method": "Notebook data transformations and annualization; exact active-set enumeration for long-only portfolio optimization; no source changes.",
+  "sources": {
+    "CCI.csv": {
+      "sha256": "59bcb7c068555f17c5d5ba02657907924f4cda9484d137d3a20715736396ce3c",
+      "first_date": "2013-04-28 00:00:00",
+      "last_date": "2025-02-16 00:00:00"
+    },
+    "SP500.xlsx": {
+      "sha256": "769eadb5adaded3720e7fcc4056715df2b4faf93d06906a45b2b6b23ecf4c9b8",
+      "first_date": "1969-12-31 00:00:00",
+      "last_date": "2025-02-12 00:00:00"
+    },
+    "BBG Commodity.csv": {
+      "sha256": "b8431efbeda22dc5b4d79cd2360d5cbe6342335d480214883496377cf7ab0a60",
+      "first_date": "1991-01-02 00:00:00",
+      "last_date": "2025-02-14 00:00:00"
+    },
+    "USD Index.xlsx": {
+      "sha256": "1c7dbf2b75e23f2551df3cf0bf81edff532f9dcd9f1dce9e3bc2376c894cdb83",
+      "first_date": "1970-01-01 00:00:00",
+      "last_date": "2025-02-13 00:00:00"
+    },
+    "US AGG.xlsx": {
+      "sha256": "60bd97feb9d7c422c16b6332a6047b7c92ad1ff74ce16e1d2bff332d0cc86868",
+      "first_date": "1976-02-27 00:00:00",
+      "last_date": "2025-02-12 00:00:00"
+    }
+  },
+  "results": [
+    {
+      "period": "Old",
+      "including_cc": true,
+      "first_price_week": "2013-04-28",
+      "last_price_week": "2018-08-12",
+      "first_return_week": "2013-05-05",
+      "return_observations": 276,
+      "rf": 0.0157,
+      "return": 0.0738301653003483,
+      "std": 0.035587712375991475,
+      "sharpe": 1.6334336044472653,
+      "weights": {
+        "Crypto": 0.02644745977494945,
+        "Stocks": 0.20347781149545688,
+        "Commodity": 0.0,
+        "FX": 0.4237769448784087,
+        "Bond": 0.3462977838511849
+      },
+      "optimality_check": "passed"
+    },
+    {
+      "period": "Old",
+      "including_cc": false,
+      "first_price_week": "2013-04-28",
+      "last_price_week": "2018-08-12",
+      "first_return_week": "2013-05-05",
+      "return_observations": 276,
+      "rf": 0.0157,
+      "return": 0.049104018441244575,
+      "std": 0.027002654170642553,
+      "sharpe": 1.2370642615406906,
+      "weights": {
+        "Stocks": 0.22082182467425907,
+        "Commodity": 0.0,
+        "FX": 0.4390939020057417,
+        "Bond": 0.34008427331999924
+      },
+      "optimality_check": "passed"
+    },
+    {
+      "period": "Extended",
+      "including_cc": true,
+      "first_price_week": "2013-04-28",
+      "last_price_week": "2025-02-16",
+      "first_return_week": "2013-05-05",
+      "return_observations": 616,
+      "rf": 0.0157,
+      "return": 0.08218147828530645,
+      "std": 0.05393882596902977,
+      "sharpe": 1.2325347667648225,
+      "weights": {
+        "Crypto": 0.047381277881621976,
+        "Stocks": 0.24221312979488804,
+        "Commodity": 0.0,
+        "FX": 0.6334545177338736,
+        "Bond": 0.07695107458961646
+      },
+      "optimality_check": "passed"
+    },
+    {
+      "period": "Extended",
+      "including_cc": false,
+      "first_price_week": "2013-04-28",
+      "last_price_week": "2025-02-16",
+      "first_return_week": "2013-05-05",
+      "return_observations": 616,
+      "rf": 0.0157,
+      "return": 0.05333854845940807,
+      "std": 0.040953398986255066,
+      "sharpe": 0.9190579876420137,
+      "weights": {
+        "Stocks": 0.2880706306594343,
+        "Commodity": 0.0,
+        "FX": 0.6448243034235511,
+        "Bond": 0.06710506591701462
+      },
+      "optimality_check": "passed"
+    }
+  ]
+}
